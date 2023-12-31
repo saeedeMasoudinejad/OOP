@@ -1,0 +1,15 @@
+1) OCP(open close principle) : can extend the code but you couldn't edit it.
+       To adhere this principle,It's necessary observe the DIP.
+
+2) DIP(dependency inversion principle) If I have two concrete classes, instead of connecting them directly, you should use
+    absract class.
+
+3) LSP(Liskov substitution principle) An Object of a superclass should be replace with an object of a drive class without
+    affecting the correctness of program:
+        - pre and post condition, return type and method structure can not change the drive class.
+        - A method id overriden in subclass to achieve true extension,not complete redefinition. if a subclass overrides
+        a method of the base class, it should do so in a way that respects the expected behavior defined by the base class
+        not new behavior.
+
+4) ISP(interface segregation principle) any interface should be a cohesive, have many interfaces better than one
+    non-cohesive interface(swiss army knife)
