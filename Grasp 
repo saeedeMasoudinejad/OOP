@@ -13,3 +13,4 @@
 
 4) ISP(interface segregation principle) any interface should be a cohesive, have many interfaces better than one
     non-cohesive interface(swiss army knife)
+ k
